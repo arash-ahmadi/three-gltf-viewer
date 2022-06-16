@@ -9,7 +9,6 @@ if (!(window.File && window.FileReader && window.FileList && window.Blob)) {
 } else if (!WebGL.isWebGLAvailable()) {
   console.error('WebGL is not supported in this browser.');
 }
-
 class App {
 
   /**
@@ -155,5 +154,6 @@ class App {
 document.addEventListener('DOMContentLoaded', () => {
 
   const app = new App(document.body, location);
+  app.listen(process.env.PORT || 3000);
 
 });

@@ -23,7 +23,8 @@
     "dev": "parcel index.html --port 3000",
     "test": "node test/gen_test.js",
     "deploy": "npm run build && vercel --local-config vercel.json --prod",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "start": "npm run dev"
   },
   "dependencies": {
     "dat.gui": "^0.7.9",
