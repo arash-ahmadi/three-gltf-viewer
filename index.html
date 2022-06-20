@@ -13,7 +13,7 @@
   <script src="src/app.js"></script>
 </head>
 <body>
-  <header>
+  <!-- <header>
     <h1><a href="/">glTF Viewer</a></h1>
     <span class="separator layout-md"> | </span>
     <a class="item layout-md" target="_blank" href="https://github.com/mrdoob/three.js/tree/r139">
@@ -33,7 +33,7 @@
     </a>
     <span class="flex-grow"></span>
     <button id="download-btn" class="item" style="display: none;">⬇&nbsp;&nbsp;&nbsp;Download</button>
-  </header>
+  </header> -->
   <main class="wrap">
     <div class="dropzone">
       <div class="placeholder">
@@ -50,8 +50,8 @@
     <div class="spinner"></div>
   </main>
   <script type="text/x-handlebars-template" id="report-toggle-template">
-    <div class="report-toggle level-{{issues.maxSeverity}}">
-      <div class="report-toggle-text">
+    <!--<div class="report-toggle level-{{issues.maxSeverity}}">
+       <div class="report-toggle-text">
         {{#if issues}}
           {{#if issues.numErrors }}
             {{issues.numErrors}} errors.
@@ -69,8 +69,8 @@
         {{else}}
           Validation could not run.
         {{/if}}
-      </div>
-      <div class="report-toggle-close" aria-label="Hide">&times;</div>
+      </div> 
+      <div class="report-toggle-close" aria-label="Hide">&times;</div>-->
     </div>
   </script>
   <script type="text/x-handlebars-template" id="report-template">

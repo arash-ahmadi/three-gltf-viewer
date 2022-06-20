@@ -145,8 +145,8 @@ export class Viewer {
     this.axesHelper = null;
 
     this.addAxesHelper();
-    this.addGUI();
-    if (options.kiosk) this.gui.close();
+    // this.addGUI();
+    // if (options.kiosk) this.gui.close();
 
     this.animate = this.animate.bind(this);
     requestAnimationFrame( this.animate );
@@ -321,7 +321,7 @@ export class Viewer {
     this.setClips(clips);
 
     this.updateLights();
-    this.updateGUI();
+    // this.updateGUI();
     this.updateEnvironment();
     this.updateTextureEncoding();
     this.updateDisplay();
