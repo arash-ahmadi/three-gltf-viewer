@@ -154,6 +154,6 @@ class App {
 document.addEventListener('DOMContentLoaded', () => {
 
   const app = new App(document.body, location);
-  app.listen(process.env.PORT || 3000);
+  app.listen(process.env.PORT || 3001);
 
 });
